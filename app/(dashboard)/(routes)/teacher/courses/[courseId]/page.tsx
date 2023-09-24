@@ -44,7 +44,6 @@ const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
     },
   });
 
-  console.log(categories);
 
   if (!course) {
     return redirect("/");
