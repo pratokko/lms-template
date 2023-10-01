@@ -36,3 +36,4 @@ export async function POST(req: Request, { params }: { params: { courseId: strin
     return new NextResponse("Internal Error", { status: 500 });
   }
 }
+
